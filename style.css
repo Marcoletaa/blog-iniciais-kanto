@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1, h2{
+    color:#111;
+}
+.top-bar{
+    background-color: #333;
+    color:white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding: 8px;
+    border-bottom: 5px solid #f10c0c;
+}
+.container{
+    max-width: 888px;
+    margin: auto;
+    padding: 30px;
+
+}
+.head-line{
+    font-size:  50px;
+    line-height: 64px;
+}
+.social-icons{
+    width: 20px;
+    padding: 10px 10px 10px 0;
+
+}
+.social-icon{
+    margin-top: 10px;
+}
+.sub-title{
+    font-weight: normal;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+}
+.content{
+    width: 648px;
+    margin: auto;
+}
+p{
+    font-size: 20px;
+    line-height: 32px;
+   
+}
+
+/* CARDS POKEMONS */
+
+.containerPoke{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card{
+    padding: 50px;
+    display: flex;
+    width: 800px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+}
+
+.card img{
+    max-width: 300px;
+    max-height: 300px;    
+}
+
+.buba{
+    background-color: #52ff6c;
+}
+
+.char{
+    background-color: #ff5252;
+}
+
+
+.squi{
+    background-color: #52aeff;
+}
+
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.info p{
+    font-size: 25px;
+}
+
+.media{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mBuba span{
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #275e2f;
+    color: white;
+}
+
+.mChar span{
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #802e2e;
+    color: white;
+}
+
+.mSqui span{
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #32608a;
+    color: white;
+}
+footer{
+    background-color: #333;
+    text-align: center;
+    width: 100%;
+}
+footer p{
+    color:white;
+    font-size: 15px;
+    font-weight: bold;
+}
+/* SETA PARA ROLAGEM */
+
+.scrollbutton{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 999;
+    cursor: pointer;
+    display: none;
+}
+.scrollbutton img{
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+}
+
+
+
+
